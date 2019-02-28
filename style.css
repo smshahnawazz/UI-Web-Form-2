@@ -1,0 +1,114 @@
+body{
+	background:#262022;	
+	}
+#form{
+	border:0px solid;
+	width:360px;
+	height:527px;
+	background:white;
+	margin:auto;
+	margin-top:40px;
+	box-shadow:0px 0px 2px 2px rgba(0,0,0,0.7);
+}
+::-webkit-input-placeholder{
+	font-size:17px;
+	color:#666;
+}
+.input {
+	border:0;
+	display:block;
+	width:300px;
+	margin:auto;
+	height:57px;
+	margin-top:20px;
+	outline:0;
+	border-bottom:1px solid #666;
+	padding-left:50px;
+	transition: border .1s;
+	font-size:18px;
+}
+
+.input:focus{
+	border-bottom:2px solid red;
+}
+.inputUser{
+	background:url('./icons/name.png') transparent;
+	background-repeat:no-repeat;
+	background-position:0 center;
+	
+}
+.inputPassword{
+	background:url('./icons/password.png') transparent;
+	background-repeat:no-repeat;
+	background-position:0 center;
+	
+}
+.confirmPassword{
+	background:url('./icons/password.png') transparent;
+	background-repeat:no-repeat;
+	background-position:0 center;
+	
+}
+.inputEmail{
+	background:url('./icons/mail.png') transparent;
+	background-repeat:no-repeat;
+	background-position:0 center;
+	
+}
+
+
+#form > h1{
+	
+	font-family:calibri;
+	color:white;
+	background:#ED2B2B;
+	margin-top:0px;
+	height:54px;
+	line-height:54px;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:28px;
+	font-weight:normal;
+}
+#form p{
+	color:#666;
+	font-family:calibri;
+	font-size:18px;
+	text-align:center;
+}
+#form form p a{
+	color:#ED2B2B;
+	text-decoration:none;
+}
+.checkbox{
+	border-radius:0px;
+}
+.btn{
+	width:270px;
+	height:40px;
+	background:#ED2B2B;
+	color:white;
+	border:0;
+	display:block;
+	margin:auto;
+	transition:background .2s;
+	font-size:15px;
+	
+}
+.btn:hover{
+	background:#C62525;
+	cursor:pointer;
+}
+h1~p a{
+	color:black;
+}
+
+.footer{
+	font-family:calibri;
+	color:white;
+	text-align:center;
+}
+.footer a{
+	color:#ED2B2B;
+	text-decoration:none;
+}
